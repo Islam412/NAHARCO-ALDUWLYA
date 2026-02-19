@@ -74,6 +74,7 @@ img {
 
 /* Language Globe Icon */
 .lang-toggle {
+    
     transform: translateX(-50%);
     color: var(--white);
     font-size: 1.5rem;
@@ -91,7 +92,6 @@ img {
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .logo-img {

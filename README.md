@@ -39,7 +39,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Islam412/NAHARCO-ALDUWLYA.git
+   git clone https://github.com/Islam412/NAHARCO-ALDUWLIYA.git
    cd NAHARCO-ALDUWLYA
 
     Open index.html in your preferred web browser.

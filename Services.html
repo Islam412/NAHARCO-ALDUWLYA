@@ -12,31 +12,31 @@
 
     <style>
         /* CSS جديد للـ modern-grid */
-.modern-grid {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 40px;
-}
+        .modern-grid {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
 
-.modern-image, .modern-text {
-    flex: 1 1 500px; /* النص والصورة ياخدوا نفس المساحة */
-}
+        .modern-image, .modern-text {
+            flex: 1 1 500px; /* النص والصورة ياخدوا نفس المساحة */
+        }
 
-.modern-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-    object-fit: cover;
-}
+        .modern-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            object-fit: cover;
+        }
 
-@media (max-width: 992px) {
-    .modern-grid {
-        flex-direction: column; /* على الموبايل تكون الصورة فوق النص */
-        text-align: right;
-    }
-}
+        @media (max-width: 992px) {
+            .modern-grid {
+                flex-direction: column; /* على الموبايل تكون الصورة فوق النص */
+                text-align: right;
+            }
+        }
     </style>
 </head>
 
